@@ -53,7 +53,7 @@ Tutorials are provided using google collab using the following links, they can a
 |-------------------------------------|
 
 
-| [**2D AE Sensor Heat Flux Regression Tutorial**](https://example.com) |
+| [**2D AE Sensor Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/13TsHtLGvv9iiV82KZQYsbkmeTUubQO8c?usp=sharing) |
 |-------------------------------------|
 
 

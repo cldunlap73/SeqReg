@@ -31,11 +31,12 @@ To use SeqReg there are four main functions that must be used:
 
     |Model Name|Weights Location|Description|Parameters|
     |----------|----------------|-----------|----------|
-    |HydReg| Link| Predicts heat flux from hydrophone sound data recorded in a pool boiling experiment| FFT=True, SeqLen=4000|
+    |HydReg| Link| Predicts heat flux from hydrophone sound data recorded in pool boiling experiments| FFT=True, SeqLen=4000|
+    |Hit2Flux| Link| Predicts heat flux from ae sensor hit data recored in pool boiling experiments | FFT=True, SeqLen=25, seqout=True|
     
   * **Train on Your Own Data**: If you want to use a predefined model achitecture with your own data just set train to true, pass in training data, and define the weights location as where you want the weights/model to be saved. Set the model name to one of the already defined models. 
   * **Train Your Own Data on Custom Model**: pending
 * **Analysis**: This function allows for performance visualization and returns a dictionary of performance metrics.  
 
 
-References
+## References

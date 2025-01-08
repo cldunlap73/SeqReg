@@ -7,6 +7,11 @@
 This package is for aiding in developing and running sequence regression models. The main use case is for boiling heat flux prediction via hydrophone, AE sensor, and optical image data. However, it is presented in a such a way where it can utilized for general sequence regression models if the data is prepared in the proper format. This package uses tensorflow and sklearn.  
 
 ## Installation:  
+This package requires the installation of tensorflow, scikit-learn, numpy, and pandas. After ensuring those are installed then install the package via pip:
+
+```bash
+pip install seqreg
+```
 
 ## Use:  
 
@@ -31,8 +36,8 @@ To use SeqReg there are four main functions that must be used:
 
     |Model Name|Weights Location|Description|Parameters|
     |----------|----------------|-----------|----------|
-    |HydReg| Link| Predicts heat flux from hydrophone sound data recorded in pool boiling experiments| FFT=True, SeqLen=4000|
-    |Hit2Flux| Link| Predicts heat flux from ae sensor hit data recored in pool boiling experiments | FFT=True, SeqLen=25, seqout=True|
+    |HydReg| [Link](https://drive.google.com/file/d/1LvN9y9XAb-KlJ3bMWZ59WU0uRi686pXf/view?usp=sharing)| Predicts heat flux from hydrophone sound data recorded in pool boiling experiments [1]| FFT=True, SeqLen=4000|
+    |Hit2Flux| [Link](https://drive.google.com/file/d/1FKlOnLbRFsg_2wCt_cqApda7F7yXQ4a2/view?usp=sharing)| Predicts heat flux from ae sensor hit data recored in pool boiling experiments [2] | FFT=True, SeqLen=25, seqout=True|
     
   * **Train on Your Own Data**: If you want to use a predefined model achitecture with your own data just set train to true, pass in training data, and define the weights location as where you want the weights/model to be saved. Set the model name to one of the already defined models. 
   * **Train Your Own Data on Custom Model**: pending
@@ -40,3 +45,10 @@ To use SeqReg there are four main functions that must be used:
 
 
 ## References
+[1]   C. Dunlap, H. Pandey, E. Weems, and H. Hu, “[Nonintrusive Heat Flux Quantification Using Acoustic Emissions During Pool Boiling](https://www.sciencedirect.com/science/article/pii/S1359431123005872),” Appl Therm Eng, p. 120558, Apr. 2023, doi: 10.1016/j.applthermaleng.2023.120558.
+
+[2]   
+
+[3]   C. Dunlap, C. Li, H. Pandey, Y. Sun, and H. Hu, “[A Temporal-Spatial Framework for Efficient Heat Flux Monitoring of Transient Boiling](https://ieeexplore.ieee.org/document/10680575),” IEEE Trans Instrum Meas, 2024, doi: 10.1109/TIM.2024.3460944.
+
+

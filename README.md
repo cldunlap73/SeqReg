@@ -36,8 +36,8 @@ To use SeqReg there are four main functions that must be used:
 
     |Model Name|Weights Location|Description|Parameters|
     |----------|----------------|-----------|----------|
-    |HydReg| [Link](https://drive.google.com/file/d/1LvN9y9XAb-KlJ3bMWZ59WU0uRi686pXf/view?usp=sharing)| Predicts heat flux from hydrophone sound data recorded in pool boiling experiments [1]| FFT=True, SeqLen=4000|
-    |Hit2Flux| [Link](https://drive.google.com/file/d/1FKlOnLbRFsg_2wCt_cqApda7F7yXQ4a2/view?usp=sharing)| Predicts heat flux from ae sensor hit data recored in pool boiling experiments [2] | FFT=True, SeqLen=25, seqout=True|
+    |HydReg| [Link](https://osf.io/mk2d4/)| Predicts heat flux from hydrophone sound data recorded in pool boiling experiments [1]| FFT=True, SeqLen=4000|
+    |Hit2Flux| [Link](https://osf.io/2hqym)| Predicts heat flux from ae sensor hit data recored in pool boiling experiments [2] | FFT=True, SeqLen=25, seqout=True|
     
   * **Train on Your Own Data**: If you want to use a predefined model achitecture with your own data just set train to true, pass in training data, and define the weights location as where you want the weights/model to be saved. Set the model name to one of the already defined models. 
   * **Train Your Own Data on Custom Model**: pending

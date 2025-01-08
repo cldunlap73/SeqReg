@@ -15,30 +15,14 @@ pip install seqreg
 
 ## Using SeqReg:  
 
-Tutorials are provided using google collab using the following links, they can also be found in the github:
-
-
-| [**1D Hydrophone Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/1VP3pgARx654o4bxoc1lOXYkQSrIEco-I?usp=sharing) |
-|-------------------------------------|
-
-
-| [**2D AE Sensor Heat Flux Regression Tutorial**](https://example.com) |
-|-------------------------------------|
-
-
-| [**3D Pool Boiling Image Heat Flux Regression Tutorial**](https://example.com) |
-|-------------------------------------|
-
-
-
-### Saving Data Format
+### Proper Data Format:
 <div align="center">
   <img src="./Images/save_data.png" alt="Logo" style="width: 100%; max-width: 100%;">
 </div>  
 
 SeqReg can be used for regression from 1D, 2D, or 3D (wip) inputs. It is designed to work with multiple sets of experimental data. Each experimental dataset must be saved in a csv. One column show contain time (or index) one should contain the output labels (in this case heat flux) corresponding to each input at the specified time. The other column should contain the model inputs. This could be just a single value, a path relative to the csv to an array saved in a txt file, or a path to an image.   
 
-### Available Functions
+### Available Functions:
 <div align="center">
   <img src="./Images/functions.png" alt="Logo" style="width: 100%; max-width: 100%;">
 </div>
@@ -60,7 +44,24 @@ To use SeqReg there are four main functions that must be used:
 * **Analysis**: This function allows for performance visualization and returns a dictionary of performance metrics.  
 
 
-## References
+### Tutorials:
+
+Tutorials are provided using google collab using the following links, they can also be found in the github:
+
+
+| [**1D Hydrophone Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/1VP3pgARx654o4bxoc1lOXYkQSrIEco-I?usp=sharing) |
+|-------------------------------------|
+
+
+| [**2D AE Sensor Heat Flux Regression Tutorial**](https://example.com) |
+|-------------------------------------|
+
+
+| [**3D Pool Boiling Image Heat Flux Regression Tutorial**](https://example.com) |
+|-------------------------------------|
+
+
+## References:
 [1]   C. Dunlap, H. Pandey, E. Weems, and H. Hu, “[Nonintrusive Heat Flux Quantification Using Acoustic Emissions During Pool Boiling](https://www.sciencedirect.com/science/article/pii/S1359431123005872),” Appl Therm Eng, p. 120558, Apr. 2023, doi: 10.1016/j.applthermaleng.2023.120558.
 
 [2]   

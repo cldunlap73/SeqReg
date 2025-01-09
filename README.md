@@ -46,7 +46,7 @@ To use SeqReg there are four main functions that must be used:
 
 ### Tutorials:
 
-Tutorials are provided using google collab using the following links, they can also be found in the github:
+Tutorials are provided using google colab using the following links, they can also be found in the github:
 
 
 | [**1D Hydrophone Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/1VP3pgARx654o4bxoc1lOXYkQSrIEco-I?usp=sharing) |

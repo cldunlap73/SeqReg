@@ -22,6 +22,8 @@ pip install seqreg
 
 SeqReg can be used for regression from 1D, 2D, or 3D (wip) inputs. It is designed to work with multiple sets of experimental data. Each experimental dataset must be saved in a csv. One column should contain time (or index) one should contain the output labels (in this case heat flux) corresponding to each input at the specified time. The other column should contain the model inputs. This could be just a single value, a path relative to the csv to an array saved in a txt file, or a path to an image.   
 
+* Specific functions for converting labview files recorded during a pool boiling experiment to the proper csv format are also available. To learn more about these see the tutorial at the bottom of the page.
+
 ### Available Functions:
 <div align="center">
   <img src="./Images/functions.png" alt="Logo" style="width: 100%; max-width: 100%;">
@@ -59,6 +61,9 @@ Tutorials are provided using google colab using the following links, they can al
 
 | [**3D Pool Boiling Image Heat Flux Regression Tutorial**](https://example.com) |
 |-------------------------------------|
+
+| [**Save Pool Boiling Data to CSV File Tutorial**](https://colab.research.google.com/drive/1qG4wnI8bcMWwrJ0M4DWUMGJQmKD_-Eh5?usp=sharing)|
+|-----------------|
 
 
 ## References:

@@ -43,7 +43,8 @@ To use SeqReg there are four main functions that must be used:
     |Model Name|Weights Location|Description|Parameters|
     |----------|----------------|-----------|----------|
     |HydReg| [Link](https://osf.io/mk2d4/)| Predicts heat flux from hydrophone sound data recorded in pool boiling experiments [1]| FFT=True, SeqLen=4000|
-    |Hit2Flux| [Link](https://osf.io/2hqym)| Predicts heat flux from ae sensor hit data recored in pool boiling experiments [2] | FFT=True, SeqLen=25, seqout=True|
+    |Hit2Flux| [Link](https://osf.io/2hqym)| Predicts heat flux from ae sensor hit data recorded in pool boiling experiments [2] | FFT=True, SeqLen=25, seqout=True|
+    |ImgReg|[Link](https://osf.io/rb35w) [PCA](https://osf.io/cwda3)| Predicts heat flux from optical images recorded in pool boiling experiments [3] | dype="PCAnpy", pcskeep=40, SeqLen=200|
     
   * **Train on Your Own Data**: If you want to use a predefined model achitecture with your own data just set train to true, pass in training data, and define the weights location as where you want the weights/model to be saved. Set the model name to one of the already defined models. 
   * **Train Your Own Data on Custom Model**: pending
@@ -63,7 +64,7 @@ Tutorials are provided using google colab using the following links, they can al
 |-------------------------------------|
 
 
-| [**3D Pool Boiling Image Heat Flux Regression Tutorial**](https://example.com) |
+| [**3D Pool Boiling Image Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/11kVrDKrnL21zUPefDZgihgzAf9EIXxjE?usp=sharing) |
 |-------------------------------------|
 
 | [**Save Pool Boiling Data to CSV File Tutorial**](https://colab.research.google.com/drive/1qG4wnI8bcMWwrJ0M4DWUMGJQmKD_-Eh5?usp=sharing)|

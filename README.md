@@ -5,7 +5,9 @@
 
 [![bpypi](https://img.shields.io/pypi/v/seqreg)](https://pypi.org/project/seqreg/) 
 [![blicense](https://img.shields.io/github/license/cldunlap73/seqreg)](https://github.com/cldunlap73/SeqReg/blob/main/LICENSE)
-
+[![bhydreg](https://img.shields.io/badge/Paper-HydReg-purple)](https://www.sciencedirect.com/science/article/pii/S1359431123005872)
+[![bhit2flux](https://img.shields.io/badge/Paper-Hit2Flux-purple)](example.com)
+[![bimgreg](https://img.shields.io/badge/Paper-ImgReg-purple)](https://ieeexplore.ieee.org/document/10680575)
 ---
 
 This package is for aiding in developing and running sequence regression models. The main use case is for boiling heat flux prediction via hydrophone, AE sensor, and optical image data. However, it is presented in a such a way where it can utilized for general sequence regression models if the data is prepared in the proper format. This package uses tensorflow and sklearn.  

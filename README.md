@@ -57,20 +57,17 @@ To use SeqReg there are four main functions that must be used:
 
 Tutorials are provided using google colab using the following links, they can also be found in the github:
 
+[![colab1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VP3pgARx654o4bxoc1lOXYkQSrIEco-I?usp=sharing)
+[**1D Hydrophone Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/1VP3pgARx654o4bxoc1lOXYkQSrIEco-I?usp=sharing)
 
-| [**1D Hydrophone Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/1VP3pgARx654o4bxoc1lOXYkQSrIEco-I?usp=sharing) |
-|-------------------------------------|
+[![colab1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13TsHtLGvv9iiV82KZQYsbkmeTUubQO8c?usp=sharing)
+[**2D AE Sensor Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/13TsHtLGvv9iiV82KZQYsbkmeTUubQO8c?usp=sharing)
 
+[![colab1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11kVrDKrnL21zUPefDZgihgzAf9EIXxjE?usp=sharing)
+[**3D Pool Boiling Image Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/11kVrDKrnL21zUPefDZgihgzAf9EIXxjE?usp=sharing)
 
-| [**2D AE Sensor Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/13TsHtLGvv9iiV82KZQYsbkmeTUubQO8c?usp=sharing) |
-|-------------------------------------|
-
-
-| [**3D Pool Boiling Image Heat Flux Regression Tutorial**](https://colab.research.google.com/drive/11kVrDKrnL21zUPefDZgihgzAf9EIXxjE?usp=sharing) |
-|-------------------------------------|
-
-| [**Save Pool Boiling Data to CSV File Tutorial**](https://colab.research.google.com/drive/1qG4wnI8bcMWwrJ0M4DWUMGJQmKD_-Eh5?usp=sharing)|
-|-----------------|
+[![colab1](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qG4wnI8bcMWwrJ0M4DWUMGJQmKD_-Eh5?usp=sharing)
+[**Save Pool Boiling Data to CSV File Tutorial**](https://colab.research.google.com/drive/1qG4wnI8bcMWwrJ0M4DWUMGJQmKD_-Eh5?usp=sharing)
 
 
 ## References:

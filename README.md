@@ -5,6 +5,7 @@
 
 [![bpypi](https://img.shields.io/pypi/v/seqreg)](https://pypi.org/project/seqreg/) 
 [![blicense](https://img.shields.io/github/license/cldunlap73/seqreg)](https://github.com/cldunlap73/SeqReg/blob/main/LICENSE)
+[![bdata](https://img.shields.io/badge/osf%20storage-red)](https://osf.io/7m6wf/)
 [![bhydreg](https://img.shields.io/badge/paper-HydReg-purple)](https://www.sciencedirect.com/science/article/pii/S1359431123005872)
 [![bhit2flux](https://img.shields.io/badge/paper-Hit2Flux-purple)](example.com)
 [![bimgreg](https://img.shields.io/badge/paper-ImgReg-purple)](https://ieeexplore.ieee.org/document/10680575)

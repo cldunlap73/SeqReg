@@ -2,7 +2,7 @@
   <img src="./Images/logo_header.png" alt="Logo" style="width: 85%; max-width: 100%;">
 </div>
 
-
+[![bdocs](https://readthedocs.org/projects/seqreg/badge/?version=latest)(https://seqreg.readthedocs.io/en/latest/)
 [![bpypi](https://img.shields.io/pypi/v/seqreg)](https://pypi.org/project/seqreg/) 
 [![blicense](https://img.shields.io/github/license/cldunlap73/seqreg)](https://github.com/cldunlap73/SeqReg/blob/main/LICENSE)
 [![bdata](https://img.shields.io/badge/osf%20storage-red)](https://osf.io/7m6wf/)

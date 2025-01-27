@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-SeqReg documentation
+Documentation
 ==================================
 
 .. image:: _static/logo_header.png
@@ -35,6 +35,6 @@ Installation:
    :caption: Contents:
 
    tutorials
-   bubbleidmodule
+   seqregmodule
    poolboilingmodule
 

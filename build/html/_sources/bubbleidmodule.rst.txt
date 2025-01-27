@@ -1,4 +1,56 @@
-BubbleID Module
-===============
+SeqReg Module
+=============
 
-hey
+function LoadDataFromFolder(folderpath,xname,yname,tname="Time",datatype="Value", pcskeep="ALL")
+------------------------------------------------------------------------------------------------
+
+Parameters:
+    * folderpath: path to location of saved data (in specified csv format)
+    * xname: name of the csv column with xdata
+    * yname: name of the csv column with ydata
+    * tname: name of the csv column with time data (defaults to Time)
+    * datatype: type of data in the x column (either Value, txtFilePath, PCAnpy) (defaults to Value)
+    * pcskeep: amount of pcs to keep if using data from PCA data reduction (either and interger or "ALL") (defaults to ALL)
+
+Output:
+    * xds: list of all loaded x data of shape (# of experiments, -)
+    * yds: list of all loaded y data of shape (# of experiments, -)
+    * timeds: list of all loaded time data of shape (# of experiments, -)
+
+function PrepareData(x,y,time,seqlen, stride, dt, fft=False, seqout=False)
+--------------------------------------------------------------------------
+
+Parameters:
+    * x: list of all loaded x data (xds output from LoadDataFromFolder function)
+    * y: list of all loaded y data (yds output from LoadDataFromFolder function)
+    * time: list of all loaded time data (timeds output from LoadDataFromFolder function)
+    * seqlen: length of sequences to generate using a rolling sampling method
+    * stride: stride to use for generating sequences using a rolling sampling method
+    * dt: timestep between each data point. This is only relevant if using the FFT
+    * fft: a boolean defining whether to use the fft to transform x data sequences to the frequency domain (defaults to False)
+    * seqout: a boolean defining whether the y data should be a single value or sequence for outputs
+
+Output:
+    * x1: numpy array of transformed x data
+    * y1: numpy array of transformed y data
+    * t1: numpy array of transformed time data
+
+function Model(modelname,savemodelpath, train=False, xtrain=None, ytrain=None)
+------------------------------------------------------------------------------
+
+Parameters:
+    * modelname: the name of the model architecture to be used (HydReg, Hit2Flux, ImgReg)
+    * savemodelpath: either the path to the location of saved weights if train=False or path to location where weights will be saved if train=True
+    * train: boolean specifying whether a model is to be trained or using a pretrained model (defaults to False)
+    * xtrain: numpy array containing training x data prepared based on PrepareData function (defaults to None)
+    * ytrain: numpy array containing training y data prepared based on PrepareData function (defaults to None)
+
+Output:
+    * model: a tensorflow or sklearn model
+    * if train=True saved weigths or model to specified path
+
+function Analyze(model, savepath, xtest, ytest, time, xname="X Data", yname = "Y Data", seqout=False, showplot=True)
+--------------------------------------------------------------------------------------------------------------------
+
+Parameters:
+    * model

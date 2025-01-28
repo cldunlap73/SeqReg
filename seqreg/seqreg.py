@@ -46,7 +46,7 @@ def compute_fft(signal, dx):
     y_f=2.0/N *np.abs(y_f[:N//2])
     return x_f,y_f
 
-def LoadDataFromFolder(folderpath, xname, yname,tname="Time", datatype="Value"):
+def LoadDataFromFolder(folderpath, xname, yname,tname="Time", datatype="Value",pcskeep="ALL"):
     files=[f for f in os.listdir(folderpath) if f.endswith(".csv")]
     xds,yds,timeds=[],[],[]
     for i in range(len(files)):
@@ -55,6 +55,12 @@ def LoadDataFromFolder(folderpath, xname, yname,tname="Time", datatype="Value"):
             xds.append(df[xname].tolist())
         elif datatype =="txtFilePath":
             xds.append([np.loadtxt(folderpath+file_path) for file_path in df[xname]])
+        elif datatype=="PCAnpy":
+            pcaname=folderpath+'/'+files[i].split(".")[0]+".npy"
+            if pcskeep == "ALL":
+                xds.append(np.load(pcaname))
+            else:
+                xds.append(np.load(pcaname)[:,:pcskeep])
         yds.append(df[yname].tolist())
         timeds.append(df[tname].tolist())
     return xds,yds,timeds

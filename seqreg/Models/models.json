@@ -7,6 +7,14 @@
                          "loss": "mae" ,
                          "epochs": 1000}
     },
+        "ImgReg": {
+        "framework": "tensorflow",
+        "type": "Sequential",
+        "path": "Models/imgreg.json",
+        "train_params": {"optimizer": "adam",
+                         "loss": "mse" ,
+                         "epochs": 1000}
+    },
     "random_forest": {
         "framework": "sklearn",
         "type": "RandomForestClassifier",

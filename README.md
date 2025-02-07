@@ -74,7 +74,7 @@ Tutorials are provided using google colab using the following links, they can al
 ## References:
 [1]   C. Dunlap, H. Pandey, E. Weems, and H. Hu, “[Nonintrusive Heat Flux Quantification Using Acoustic Emissions During Pool Boiling](https://www.sciencedirect.com/science/article/pii/S1359431123005872),” Appl Therm Eng, p. 120558, Apr. 2023, doi: 10.1016/j.applthermaleng.2023.120558.
 
-[2]   
+[2]   C. Dunlap, C. Li, H. Pandey, H. Hu, "Hit2Flux: A Machine Learning Framework for Boiling Heat Flux Prediction Using Hit-Based Acoustic Emission Sensing," (submitted)
 
 [3]   C. Dunlap, C. Li, H. Pandey, Y. Sun, and H. Hu, “[A Temporal-Spatial Framework for Efficient Heat Flux Monitoring of Transient Boiling](https://ieeexplore.ieee.org/document/10680575),” IEEE Trans Instrum Meas, 2024, doi: 10.1109/TIM.2024.3460944.
 

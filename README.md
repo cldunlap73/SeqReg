@@ -20,6 +20,16 @@ This package requires the installation of tensorflow, scikit-learn, numpy, and p
 pip install seqreg
 ```
 
+The GitHub source release `v0.1.0` can be installed directly when that exact
+release is required for reproducibility:
+
+```bash
+pip install "git+https://github.com/cldunlap73/SeqReg.git@v0.1.0"
+```
+
+The GitHub release and the PyPI distribution are versioned independently. Check
+the package version and commit recorded by a study before reproducing a result.
+
 ## Using SeqReg:  
 
 ### Proper Data Format:

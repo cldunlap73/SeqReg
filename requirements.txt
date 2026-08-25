@@ -2,9 +2,6 @@ tensorflow
 matplotlib
 pandas
 numpy
-os
-json
 joblib
 scikit-learn
-pickle
 pillow

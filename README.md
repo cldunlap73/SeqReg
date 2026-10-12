@@ -13,6 +13,9 @@
 
 This package is for aiding in developing and running sequence regression models. The main use case is for boiling heat flux prediction via hydrophone, AE sensor, and optical image data. However, it is presented in a such a way where it can utilized for general sequence regression models if the data is prepared in the proper format. This package uses tensorflow and sklearn.  
 
+Repository scope, evidence, and reuse boundaries are also available in the
+[NED3 resource manifest](.ned3/resource-manifest-v0.1.json).
+
 ## Installation:  
 This package requires the installation of tensorflow, scikit-learn, numpy, and pandas. After ensuring those are installed then install the package via pip:
 
